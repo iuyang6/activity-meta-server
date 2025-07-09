@@ -39,7 +39,7 @@ app.get('/activity/:id', async (req, res) => {
         <body>
             <div>分享页，即将跳转...</div>
             <script>
-                window.location.href = "https://baidu.com";
+                window.location.href = "https://hk-paas.transsion.com/booking/#/policy?bookingActivityId=TEM2507080007";
             </script>
         </body>
       </html>
