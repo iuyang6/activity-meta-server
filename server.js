@@ -39,7 +39,7 @@ app.get('/activity/:id', async (req, res) => {
         <body>
             <div>分享页，即将跳转...</div>
             <script>
-                // window.location.href = "https://yourdomain.com/activity/${id}";
+                window.location.href = "https://baidu.com";
             </script>
         </body>
       </html>
