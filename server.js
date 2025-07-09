@@ -27,19 +27,20 @@ app.get('/activity/:id', async (req, res) => {
           <meta property="og:title" content="${data.title}" />
           <meta property="og:description" content="${data.description}" />
           <meta property="og:image" content="${data.image}" />
-          <meta property="og:url" content="https://share.yourdomain.com/activity/${id}" />
+          
 
           <meta name="twitter:card" content="summary_large_image" />
           <meta name="twitter:title" content="${data.title}" />
           <meta name="twitter:description" content="${data.description}" />
           <meta name="twitter:image" content="${data.image}" />
 
-          <meta http-equiv="refresh" content="0; url=https://yourdomain.com/activity/${id}" />
+          
         </head>
         <body>
-          <script>
-            window.location.href = "https://yourdomain.com/activity/${id}";
-          </script>
+            <div>分享页，即将跳转...</div>
+            <script>
+                // window.location.href = "https://yourdomain.com/activity/${id}";
+            </script>
         </body>
       </html>
     `
